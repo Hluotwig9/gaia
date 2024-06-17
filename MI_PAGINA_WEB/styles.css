@@ -1,0 +1,262 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004d00;
+  padding: 1rem;
+  color: white;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .auth button {
+  background-color: #ff9900;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004d00;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Welcome section */
+.welcome {
+  text-align: center;
+  background-image: url('assets/2.png');
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  color: white;
+}
+
+.welcome h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.welcome p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.welcome .actions button {
+  background-color: #ff9900;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+.welcome .welcome-image {
+  margin-top: 2rem;
+}
+
+.welcome .welcome-image img {
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.features .feature {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+.features .feature img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+/* Form container */
+.form-container {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 1rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form label {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-container form button {
+  background-color: #004d00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.form-container .links a {
+  color: red;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.form-container .form-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form-container .form-image img {
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Profile container */
+.profile-container {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container form label,
+.profile-container form input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.profile-container form button {
+  background-color: #004d00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.profile-container .profile-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.profile-container .profile-image img {
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Admin container */
+.admin-container {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-container form .form-group {
+  margin-bottom: 1rem;
+}
+
+.admin-container form label,
+.admin-container form input {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.admin-container form button {
+  background-color: #004d00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.admin-container .admin-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.admin-container .admin-image img {
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Search results */
+.results {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.results img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}

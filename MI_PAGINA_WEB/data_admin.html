@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAIA - Administrar Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="GAIA Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="login.html">Inicio de sesión</a></li>
+                <li><a href="register.html">Registrarse</a></li>
+                <li><a href="search.html">Buscar</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="admin-container">
+            <h2>Administrar Datos</h2>
+            <form>
+                <div class="form-group">
+                    <label for="commonName">Nombre Común</label>
+                    <input type="text" id="commonName" name="commonName" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="kingdom">Reino</label>
+                    <input type="text" id="kingdom" name="kingdom" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="class">Clase</label>
+                    <input type="text" id="class" name="class" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="order">Orden</label>
+                    <input type="text" id="order" name="order" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="family">Familia</label>
+                    <input type="text" id="family" name="family" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="genus">Género</label>
+                    <input type="text" id="genus" name="genus" placeholder="Escribe...">
+                </div>
+                <div class="form-group">
+                    <label for="species">Especie</label>
+                    <input type="text" id="species" name="species" placeholder="Escribe...">
+                </div>
+                <button type="submit">Continuar</button>
+            </form>
+            <div class="admin-image">
+                <img src="assets/admin.png" alt="Administrar Datos">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
